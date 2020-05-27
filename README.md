@@ -20,6 +20,7 @@ Description:
 14. **weather.conf**: Weather information from openweathermap.org. You'll need to sign up to get your personal API key.
 15. **updateip.sh**: Runs as a cronjob in Ubuntu to push the machine's IP address to the database. I use this on my OpenVPN VM to get the VPN public IP address and on my data aggregation VM for my public IP.
 16. **readtemp.py**: Python script running as a cron job for Raspberry pi to gather data from DS18B20 temperature sensors and push to database
+17. **wowtoken.conf**: Token prices for game World of Warcraft
 
 Not included in the list above:
 1. Data collection from Plex and Tautulli. See https://github.com/Boerderij/Varken
